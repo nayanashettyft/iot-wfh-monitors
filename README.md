@@ -8,13 +8,13 @@ ESP8266 NodeMCU or ESP32 are both WIFI chips. ESP8266 NodeMCU is good enough for
 
 We use a `touch sensor` and a `ESP8266 NodeMCU` to send a metric to graphite if the seat on which the touch sensor is places is occupied or not. We use the ESP32 client to connect to a graphite server and send 0 if the chair is empty and 1 if I am sitting on the chair to `graphite`. Alerts and visualisation is on `grafana`.
 
-![Touch sensor](iamges/touch_sensor.JPG)
+![Touch sensor](images/touch_sensor.JPG)
 
 ## Am I drinking enough water - water bottle monitor
 
 We use a `load cell`, `HX711 load cell amplifier` and a `ESP32 NodeMCU` for measuring the weight of a waterbottle. We then use the ESP32 client to connect to a graphite server and send the weight of the bottle to `graphite`. Alerts and visualisation is on `grafana`.
 
-![Weight sensor](iamges/weight_sensor.jpg)
+![Weight sensor](images/weight_sensor.jpg)
 
 ## WifiMonitor
 
